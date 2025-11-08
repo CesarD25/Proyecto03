@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="public/assets/icono.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>proyecto03</title>
+    <meta name="description" content="FitLife Gym - Entrenamiento, clases grupales y entrenamiento personalizado." />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+  </head>
+  <body class="antialiased">
+    <!-- Header -->
+    <header class="flex items-center justify-between p-6 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+      <div class="flex items-center gap-4">
+        <div class="header-brand">FitLife Gym</div>
+        <nav class="hidden md:flex gap-6">
+          <a href="#planes" class="hover:underline">Planes</a>
+          <a href="#servicios" class="hover:underline">Servicios</a>
+          <a href="#entrenadores" class="hover:underline">Entrenadores</a>
+          <a href="#contacto" class="hover:underline">Contacto</a>
+        </nav>
+      </div>
+      <div>
+        <a href="#contacto" class="px-4 py-2 bg-amber-500 rounded-md text-black font-semibold">Únete Ahora</a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative text-center py-20 bg-[url('/public/assets/hero-fitness.jpg')] bg-cover bg-center">
+      <div class="bg-black/50 p-10 rounded-lg inline-block">
+        <h1 class="hero-title text-white mb-4">Transforma tu cuerpo. Transforma tu vida.</h1>
+        <p class="text-white mb-6">Clases grupales, entrenamiento personalizado y planes flexibles para todos los niveles.</p>
+        <a href="#contacto" class="px-6 py-3 bg-amber-400 rounded-full font-semibold">Solicita una clase gratis</a>
+      </div>
+    </section>
+
+    <!-- Planes -->
+    <section id="planes" class="py-16 px-6 max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Planes de Membresía</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card">
+          <h3 class="text-xl font-semibold mb-2">Plan Básico</h3>
+          <p class="mb-4 text-sm">Acceso a máquinas y área de pesas. Ideal para comenzar.</p>
+          <div class="text-2xl font-bold">$25 / mes</div>
+        </div>
+        <div class="card">
+          <h3 class="text-xl font-semibold mb-2">Plan Plus</h3>
+          <p class="mb-4 text-sm">Incluye clases grupales y 1 sesión con entrenador al mes.</p>
+          <div class="text-2xl font-bold">$45 / mes</div>
+        </div>
+        <div class="card">
+          <h3 class="text-xl font-semibold mb-2">Entrenamiento Personal</h3>
+          <p class="mb-4 text-sm">Plan personalizado 1:1 con seguimiento y nutrición.</p>
+          <div class="text-2xl font-bold">$120 / mes</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="bg-gray-50 py-16 px-6">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Servicios Destacados</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="card text-center">
+            <h4 class="font-semibold mb-2">Clases Grupales</h4>
+            <p class="text-sm">Spinning, Yoga, CrossFit y más con horarios flexibles.</p>
+          </div>
+          <div class="card text-center">
+            <h4 class="font-semibold mb-2">Entrenamiento Personal</h4>
+            <p class="text-sm">Programas 1:1 con entrenadores certificados.</p>
+          </div>
+          <div class="card text-center">
+            <h4 class="font-semibold mb-2">Nutrición</h4>
+            <p class="text-sm">Planes de alimentación para complementar tu entrenamiento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Entrenadores -->
+    <section id="entrenadores" class="py-16 px-6">
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Nuestro equipo</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="card">
+            <img src="/public/assets/trainer-1.jpg" alt="Entrenador 1" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h4 class="font-semibold">Laura Méndez</h4>
+            <p class="text-sm">Especialista en fuerza y acondicionamiento.</p>
+          </div>
+          <div class="card">
+            <img src="/public/assets/trainer-2.jpg" alt="Entrenador 2" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h4 class="font-semibold">Ricardo Paz</h4>
+            <p class="text-sm">Instructor de clases grupales y HIIT.</p>
+          </div>
+          <div class="card">
+            <img src="/public/assets/trainer-3.jpg" alt="Entrenador 3" class="w-full h-48 object-cover rounded-lg mb-4">
+            <h4 class="font-semibold">María Gómez</h4>
+            <p class="text-sm">Coach de movilidad y recuperación.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="bg-gray-100 py-16 px-6 text-center">
+      <h2 class="text-3xl font-bold mb-4">Contacto y ubicación</h2>
+      <p class="mb-6">¿Listo para comenzar? Escríbenos por WhatsApp o deja tus datos y te contactamos.</p>
+      <div class="flex flex-col md:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/593999999999" class="px-6 py-3 bg-green-500 rounded-md text-white font-semibold">Enviar mensaje por WhatsApp</a>
+        <a href="mailto:info@fitlifegym.example" class="px-6 py-3 bg-gray-800 rounded-md text-white">Enviar correo</a>
+      </div>
+      <p class="mt-6 text-sm">Dirección: Av. Central 123, Ciudad — Horarios: Lun–Vie 06:00–22:00</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+      <p>&copy; 2025 FitLife Gym. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

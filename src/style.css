@@ -1,0 +1,5 @@
+
+body { @apply bg-white text-gray-800; }
+.header-brand { @apply text-2xl font-bold; }
+.hero-title { @apply text-4xl md:text-6xl font-extrabold leading-tight; }
+.card { @apply bg-white rounded-2xl shadow-lg p-6; }
